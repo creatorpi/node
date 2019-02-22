@@ -1,0 +1,56 @@
+码云   结合svn和git
+svn   代码管理工具   本地区、服务端
+git   代码管理工具  全名： GitHub   大项目：gitlab
+    状态：本地区、暂存区、服务端
+    作用：多人协作    共同开发项目
+
+
+git init  初始化   出现.git文件   证明项目被进行管理
+git status   状态   当前仓库的状态
+
+git add 文件名    添加项目     单个文件的上传
+git add 1.txt 2.txt 3.txt
+git add .   //.代表所有    多个文件上传
+
+git commit -m "注释的内容"  提交
+git remote add origin 仓库地址    链接远程仓库
+登录：git config --global user.name 用户名
+      git config --globa user.password 密码
+git push -u origin master   推送到服务端（第一次推送时，加上-u origin master,后续推送直接git push即可）
+git pull    拉取
+ssh密钥
+git config --global --unset http.proxy   代理
+git@github.com:Lujuntong/gittest.git     //ssh
+
+git branch   查看分支
+git branch 分支名称    只创建分支，不切换
+git checkout -b 分支名称   创建并且切换到当前分支
+git checkout 分支名称     切换到其他分支
+git merge 分支1      合并分支   把分支1合并到现在分支
+要把合并的分支内容push
+git diff   对比
+
+https://github.com/Lujuntong/gittest.git
+
+克隆
+修改，创建
+查看状态
+本地添加
+上传暂存区
+
+vim领域：i:insert
+ctrl+c   :wq回车
+
+
+
+
+
+
+npm  包管理工具   下载node时自带
+发布自己的包  npm update包名称
+nvm  node版本管理工具
+nrm  镜像源管理工具
+
+
+
+express    koa
